@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="styles.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>PakePlus App</title>
-        <script type="module" src="/main.js" defer></script>
-    </head>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>保险箱开箱模拟</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>保险箱模拟器</h1>
+  <div class="main">
+    <div class="grid" id="grid"></div>
+  </div>
+  <button onclick="openSafeSequentially()">打开保险箱</button>
 
-    <body>
-        <main class="container">
-            <h1>Welcome to PakePlus</h1>
-
-            <form class="row" id="greet-form">
-                <input id="greet-input" placeholder="Enter a name..." />
-                <button type="submit">Greet</button>
-            </form>
-            <p id="greet-msg"></p>
-        </main>
-    </body>
+  <script src="script.js"></script>
+</body>
 </html>
